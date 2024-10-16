@@ -30,7 +30,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(47deg, #05802f 40.22%, #12dc9c 109.98%);
+    background: linear-gradient(47deg, #ba5700 40.22%, #fff81f 109.98%);
     opacity: 0.45;
     z-index: -1;
     transition: opacity 0.3s ease;

@@ -1,5 +1,5 @@
 <script>
-  import GreenButton from "../UI/Buttons/GreenButton.svelte"
+  import LightButton from "../UI/Buttons/LightButton.svelte"
 </script>
 
 <section class="bg-background-primary py-10 max-md:py-2">
@@ -11,7 +11,7 @@
       >
         DOWNLOAD THE GAME NOW!
       </h1>
-      <GreenButton
+      <LightButton
         text="Download"
         class="py-6 px-7 max-lg:px-4 max-sm:py-2 max-sm:px-4 ml-8 max-md:mr-4 max-lg:mr-12 mr-40"
       />

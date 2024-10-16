@@ -9,7 +9,6 @@
   import newsImage2 from "../../../assets/images/newsimage2.png"
   import newsImage3 from "../../../assets/images/newsimage3.png"
   import logo from "../../../assets/images/logo.png"
-  import logo2 from "../../../assets/images/logo2.png"
   import OutlinedButton from "../UI/Buttons/OutlinedButton.svelte"
 </script>
 
@@ -24,8 +23,8 @@
     <Deco title="News" />
     <div class="news-grid mt-14 max-sm:mt-0 2xl:mx-64">
       <NewsCard imageSrc={newsImage1} logoSrc={logo} />
-      <NewsCard imageSrc={newsImage2} logoSrc={logo2} />
-      <NewsCard imageSrc={newsImage3} logoSrc={logo2} />
+      <NewsCard imageSrc={newsImage2} logoSrc={logo} />
+      <NewsCard imageSrc={newsImage3} logoSrc={logo} />
     </div>
     <div class="w-full flex justify-center pt-6 max-md:pt-0">
       <OutlinedButton

@@ -11,7 +11,7 @@
   </div>
   <div class="content">
     <div>
-      <h2 class="title font-bignoodletitling">Lorem ipsum dolo sit...</h2>
+      <h2 class="title font-cormorantSC">Lorem ipsum dolo...</h2>
       <img src={line} alt="line" class="line pb-2" />
       <p class="description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id
@@ -39,7 +39,7 @@
     width: 100%;
     height: 55%;
     overflow: hidden;
-    background: linear-gradient(to left, #627fa4, #96c6d1);
+    background: linear-gradient(206deg, #fdf2c8 48.52%, #cfa487 102.62%);
     padding: 2px;
   }
 
@@ -47,21 +47,21 @@
     position: relative;
     height: 45%;
     padding: 7px 15px 15px 15px;
-    background: linear-gradient(206deg, #c8fdf1 48.52%, #87afcf 102.62%);
+    background: linear-gradient(206deg, #fdf2c8 48.52%, #cfa487 102.62%);
     color: white;
   }
 
   .title {
-    color: #1d3456;
+    color: #562a1d;
     font-size: 35px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 3.85px;
+    letter-spacing: 3.55px;
   }
 
   .description {
-    color: #325b64;
+    color: #75513f;
     font-size: 18px;
     font-weight: 400;
   }
@@ -70,7 +70,7 @@
     position: absolute;
     bottom: 10px;
     left: 15px;
-    color: #1d3456;
+    color: #562a1d;
     font-size: 18px;
     font-weight: 400;
   }
