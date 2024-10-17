@@ -120,7 +120,7 @@
   }
   @media (max-width: 768.9px) {
     .title {
-      font-size: 12px;
+      font-size: 9px;
     }
   }
 </style>
