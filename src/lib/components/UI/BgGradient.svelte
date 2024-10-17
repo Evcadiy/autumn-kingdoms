@@ -38,11 +38,7 @@
     right: 0;
     bottom: 0;
     z-index: 1;
-    background: linear-gradient(
-      to top,
-      rgba(10, 19, 25, 1) 0%,
-      rgba(10, 19, 25, 0) 40%
-    );
+    background: linear-gradient(0deg, #190d0a 0%, rgba(25, 13, 10, 0) 100%);
   }
 
   .top-gradient::before {
@@ -51,12 +47,8 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 100px;
-    background: linear-gradient(
-      to bottom,
-      rgba(10, 19, 25, 1) 0%,
-      rgba(10, 19, 25, 0) 100%
-    );
+    height: 200px;
+    background: linear-gradient(180deg, #190d0a 0%, rgba(25, 13, 10, 0) 100%);
   }
 
   img {

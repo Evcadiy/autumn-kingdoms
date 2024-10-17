@@ -49,11 +49,13 @@
     height: 100px;
     width: 100%;
     z-index: 1;
-    background: linear-gradient(
-      to top,
-      rgba(10, 19, 25, 1) 0%,
-      rgba(10, 19, 25, 0) 100%
-    );
+    background: linear-gradient(180deg, rgba(25, 13, 10, 0) 0%, #190d0a 39.32%);
+  }
+
+  @media (max-width: 768px) {
+    .banner-content::after {
+      height: 40px;
+    }
   }
 
   img {

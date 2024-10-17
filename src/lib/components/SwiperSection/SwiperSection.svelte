@@ -42,7 +42,7 @@
               >
                 {slide.date}
               </p>
-              <h3 class="title font-bignoodletitling">
+              <h3 class="title font-cormorantSC">
                 {slide.title}
               </h3>
               <div
@@ -89,7 +89,7 @@
     color: #fff;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 600;
     line-height: 91.648%;
@@ -109,18 +109,18 @@
 
   @media (max-width: 1200.9px) {
     .title {
-      font-size: 30px;
+      font-size: 25px;
     }
   }
 
   @media (max-width: 992.9px) {
     .title {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
   @media (max-width: 768.9px) {
     .title {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 </style>

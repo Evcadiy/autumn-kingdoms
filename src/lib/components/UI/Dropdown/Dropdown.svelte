@@ -34,7 +34,7 @@
 >
   <button
     on:click={toggleDropdown}
-    class="flex justify-between items-center w-full p-4 bg-black text-white font-gilroyBold text-[20px] max-md:text-[16px] font-bold border border-white"
+    class="flex justify-between items-center w-full py-2 px-4 bg-black text-white font-cormorantSC text-[32px] max-md:text-[16px] font-bold border border-white"
   >
     All
     <img src={isOpen ? arrowUp : arrowDown} alt="Arrow Icon" class="w-6" />

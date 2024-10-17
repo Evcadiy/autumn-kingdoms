@@ -5,7 +5,7 @@
 <section class="banner-background">
   <div class="content pt-32 pb-16 max-md:pt-12 max-md:pb-8">
     <h1
-      class="text-white text-7xl font-ethnocentricrg max-lg:text-5xl max-sm:text-4xl max-xs:text-3xl"
+      class="text-white text-8xl font-cormorantSC max-lg:text-5xl max-sm:text-4xl max-xs:text-3xl"
     >
       Lorem ipsum
     </h1>

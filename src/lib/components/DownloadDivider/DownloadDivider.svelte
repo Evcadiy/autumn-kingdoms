@@ -1,5 +1,5 @@
 <script>
-  import GreenButton from "../UI/Buttons/GreenButton.svelte"
+  import LightButton from "../UI/Buttons/LightButton.svelte"
 </script>
 
 <section class="bg-background-primary py-10 max-md:py-2">
@@ -11,7 +11,7 @@
       >
         DOWNLOAD THE GAME NOW!
       </h1>
-      <GreenButton
+      <LightButton
         text="Download"
         class="py-6 px-7 max-lg:px-4 max-sm:py-2 max-sm:px-4 ml-8 max-md:mr-4 max-lg:mr-12 mr-40"
       />
@@ -22,7 +22,8 @@
 <style>
   .divider {
     position: relative;
-    background: linear-gradient(to right, #1a344b 0%, #36ad7e 100%);
+    z-index: 10;
+    background: linear-gradient(268deg, #ad7636 -1.99%, #4b261a 102.16%);
   }
   .divider::before {
     content: "";
@@ -31,14 +32,20 @@
     left: 0;
     width: 100%;
     height: 5px;
-    background: #6dd2e3;
+    background: #e3b26d;
+    background: linear-gradient(
+      271deg,
+      rgba(177, 100, 76, 0) 12.88%,
+      #e39e6d 65.58%
+    );
   }
+
   .shadow {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(450deg, rgba(0, 0, 0, 0) 0%, #0a1319 90%);
+    background: linear-gradient(450deg, rgba(0, 0, 0, 0) 0%, #190e0a 90%);
   }
 </style>

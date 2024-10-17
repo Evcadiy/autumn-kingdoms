@@ -15,9 +15,9 @@
   .divider {
     background: linear-gradient(
       90deg,
-      rgba(101, 198, 212, 0) 0%,
-      #65c6d4 50%,
-      rgba(101, 198, 212, 0) 100%
+      rgba(202, 156, 95, 0) 0%,
+      #ca9c5f 50%,
+      rgba(202, 156, 95, 0) 100%
     );
   }
 </style>
