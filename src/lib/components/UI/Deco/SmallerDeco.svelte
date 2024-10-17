@@ -6,7 +6,7 @@
 
 <section class={`w-full flex justify-center ${className}`}>
   <div class="decorated-header mx-2 xl:mx-52 w-full 2xl:w-1/2">
-    <h1 class="title font-ethnocentricrg">{title}</h1>
+    <h1 class="title font-cormorantSC">{title}</h1>
   </div>
 </section>
 
@@ -24,7 +24,7 @@
 
   .title {
     color: white;
-    font-size: 55px;
+    font-size: 5.3rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -33,13 +33,13 @@
 
   @media (max-width: 1024px) {
     .title {
-      font-size: 30px;
+      font-size: 2.5rem;
     }
   }
 
   @media (max-width: 640px) {
     .title {
-      font-size: 18px;
+      font-size: 2rem;
     }
   }
 </style>

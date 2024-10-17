@@ -8,7 +8,7 @@
   <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
   <li
     on:click={toggleDropdown}
-    class="text-white text p-4 font-gilroyBold hover:text-opacity-75 hover:bg-gray-500 hover:cursor-pointer"
+    class="text-white text py-2 px-4 font-cormorantSC hover:text-opacity-75 hover:bg-gray-500 hover:cursor-pointer"
   >
     {text}
   </li>
@@ -16,7 +16,7 @@
 
 <style>
   .text {
-    font-size: 20px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: 124%; /* 31px */

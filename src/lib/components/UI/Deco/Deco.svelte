@@ -24,7 +24,7 @@
 
   .title {
     color: white;
-    font-size: 85px;
+    font-size: 5.3rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

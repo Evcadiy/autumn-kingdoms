@@ -57,13 +57,14 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 3.55px;
+    letter-spacing: 2px;
   }
 
   .description {
     color: #75513f;
     font-size: 18px;
     font-weight: 400;
+    line-height: 1.2;
   }
 
   .date {
