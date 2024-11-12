@@ -15,6 +15,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </h2>
     <OutlinedButton
+      href="/features"
       text="Learn More"
       class="mt-16 max-md:mt-5 py-6 px-8 max-lg:px-4 max-lg:py-4 max-md:py-2"
     />

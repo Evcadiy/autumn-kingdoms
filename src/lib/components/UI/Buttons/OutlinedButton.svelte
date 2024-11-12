@@ -1,13 +1,11 @@
 <script lang="ts">
   import { goto } from "$app/navigation"
-
+  export let href
   export let text: string
   let className = ""
 
   const handleClick = () => {
-    if (text === "All News") {
-      goto("/news")
-    }
+    goto(href)
   }
 
   export { className as class }

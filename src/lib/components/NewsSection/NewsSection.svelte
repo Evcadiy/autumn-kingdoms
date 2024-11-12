@@ -28,6 +28,7 @@
     </div>
     <div class="w-full flex justify-center pt-6 max-md:pt-0">
       <OutlinedButton
+        href="/news"
         text={"All News"}
         class="py-6 px-12 max-lg:px-8 max-lg:py-4 max-md:py-2"
       />
