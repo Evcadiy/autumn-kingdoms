@@ -1,11 +1,14 @@
 <script>
   import line from "../../../../assets/icons/line.svg"
   import NewsImage from "../NewsImage/NewsImage.svelte"
+  import { goto } from "$app/navigation"
   export let imageSrc
   export let logoSrc
 </script>
 
-<section class="news-card">
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-static-element-interactions -->
+<section class="news-card" on:click={() => goto("/card-details")}>
   <div class="image-container">
     <NewsImage src={imageSrc} {logoSrc} />
   </div>
